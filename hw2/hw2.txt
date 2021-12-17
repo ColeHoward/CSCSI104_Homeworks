@@ -1,0 +1,37 @@
+##Homework 2
+###Question 2
+
+(a) README.md is tracked and unmodified  
+
+(b) README.md is tracked and modified, fun_problem.txt is untracked and 
+	unmodified
+
+(c) README.md and fun_problem.txt are now tracked and staged
+
+(d) README.md and fun_problem are now tracked and modified
+
+(e) README.md is now tracked and staged while fun_problem.txt is tracked and unmodified
+
+(f) this will append that writing to README.md
+###Question 3
+1. A map with a string with the album name and the track number would be the
+key, and the song name would be the value would work best. This way, the user
+ could input the album name and the track number and find the correct song in
+ O(1).
+2. This data type would obviously require order so that the recipe is valid. 
+Therefore, a list of strings that contain each step in the correct order would 
+suffice. 
+3. The file extensions have no inherent order or duplicates. If each file 
+extension was represented by set of the programs that can read it, you could 
+see what kind of files can be read with more one kind of program through the 
+intersection operation. Or you easily could also see what programs can read one 
+kind of file but not another.  
+4. The only reason I can think that this information would be useful is if you
+ wanted to see what channel has which station. Since each station has a number 
+ associated with it, we want a data type with order. Therefore, a list of strings
+  of the tv station names would be useful. This way, you could get the name of a 
+  station based on the given Channel (index). You could also return the channel 
+  number given the string name using the find function. Although you could also 
+  do these things with a map, the order matters. This way you could see that all 
+  the news stations are close together or all the movie channels are close 
+  together or not, making a list better than a map. 
